@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:performance": "vitest bench",
+    "test:performance:trace": "TRACE=true vitest bench --run",
+    "test:performance:browser": "vitest bench --browser"
+  },
+  "devDependencies": {
+    "@codspeed/vitest-plugin": "^5.0.1",
+    "@testing-library/react": "^16.3.0",
+    "@vitest/browser-playwright": "^4.0.14",
+    "vitest": "^4.0.0",
+    "@vitest/ui": "^4.0.0"
+  }
+}
